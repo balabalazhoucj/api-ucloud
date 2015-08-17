@@ -1,4 +1,6 @@
 #!/bin/sh
+[ -f base.sh ] || echo "请先在同层目录新建一个base.sh文件，用于存放密钥"
+
 . ./base.sh
 
 #signature string

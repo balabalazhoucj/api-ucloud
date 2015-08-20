@@ -1,5 +1,5 @@
 #!/bin/sh
 oldlist="Action=DescribeEIP Region=cn-east-01"
-. ./core.sh
+. $(dirname $0)/core.sh
 
 
